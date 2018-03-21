@@ -1,2 +1,2 @@
-- [] primitives
-- [] EventListeners
+- [ ] Primitives
+- [ ] EventListeners
