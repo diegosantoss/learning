@@ -32,3 +32,4 @@
  ## Refs
  - [w3schools - Javascript](https://www.w3schools.com/js/default.asp)
  - [Developer Mozilla - Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ - [Javascript.com - Javascript](https://www.javascript.com/)
