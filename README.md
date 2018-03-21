@@ -15,3 +15,9 @@
 - [ ] [Javascript do Futuro](https://www.udemy.com/curso-javascript-do-futuro/learn/v4/overview)
 - [ ] [Javascript completo 2018](https://www.udemy.com/javascript-completo-2018-do-iniciante-ao-mestre/learn/v4/overview)
 - [ ] [Web Moderno com JavaScript](https://www.udemy.com/curso-web/learn/v4/overview)
+
+
+
+## Specs
+- [ ] Primitives
+- [ ] EventListeners
