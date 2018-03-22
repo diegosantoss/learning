@@ -6,7 +6,7 @@
 - [ ] [Carreira - Desenvolvedor JavaScript](https://www.alura.com.br/carreira-desenvolvedor-javascript)
 
 ## Udacity:
-- [ ] [Introdução a JavaScript](https://br.udacity.com/course/intro-to-javascript--ud803)
+- [x] [Introdução a JavaScript](https://br.udacity.com/course/intro-to-javascript--ud803)
 - [ ] [JavaScript Básico](https://br.udacity.com/course/javascript-basics--ud804)
 - [ ] [JavaScript Orientado a Objetos](https://br.udacity.com/course/object-oriented-javascript--ud015)
 
