@@ -5,6 +5,18 @@
 - [ ] [Carreira - Engenheiro JavaScript](https://www.alura.com.br/carreira-engenheiro-javascript)
 - [ ] [Carreira - Desenvolvedor JavaScript](https://www.alura.com.br/carreira-desenvolvedor-javascript)
 
+## IN Learning:
+- [ ] [JavaScript: Templating](https://www.linkedin.com/learning/javascript-templating/installing-the-developer-tools)
+- [ ] [Learning React.js](https://www.linkedin.com/learning/learning-react-js-3)
+- [ ] [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals)
+- [ ] [JavaScript Essential Training](https://www.linkedin.com/learning/javascript-essential-training-3)
+- [ ] [React.js Essential Training](https://www.linkedin.com/learning/react-js-essential-training)
+- [ ] [Building a Web Interface with React.js](https://www.linkedin.com/learning/building-a-web-interface-with-react-js)
+- [ ] [React: Lifecycles](https://www.linkedin.com/learning/react-lifecycles)
+- [ ] [Building Single-Page Applications Using ASP.NET Core JavaScriptServices](https://www.linkedin.com/learning/building-single-page-applications-using-asp-dot-net-core-javascriptservices/react-js-template)
+- [ ] [React: Working with APIs](https://www.linkedin.com/learning/react-working-with-apis)
+- [ ] [Setting up the React router](https://www.linkedin.com/learning/building-a-polling-app-with-socket-io-and-react-js/setting-up-the-react-router)
+
 ## Udacity:
 - [x] [Introdução a JavaScript](https://br.udacity.com/course/intro-to-javascript--ud803)
 
