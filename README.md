@@ -31,6 +31,7 @@
 - [ ] Object
 - [ ] [Arrays](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [ ] Function / Array Function
+- [ ] [Fetch](https://github.com/github/fetch)
   
  ## Refs
  - [w3schools - Javascript](https://www.w3schools.com/js/default.asp)
