@@ -1,9 +1,11 @@
 # Courses:
 
 ## Alura:
-- [ ] [Carreira - Programador React](https://www.alura.com.br/carreira-programador-react)
-- [ ] [Carreira - Engenheiro JavaScript](https://www.alura.com.br/carreira-engenheiro-javascript)
-- [ ] [Carreira - Desenvolvedor JavaScript](https://www.alura.com.br/carreira-desenvolvedor-javascript)
+- [ ] [Desenvolvedor Front-end](https://www.alura.com.br/carreira-desenvolvedor-front-end)
+- [ ] [Engenheiro Front-end](https://www.alura.com.br/carreira-engenheiro-front-end)
+- [ ] [Desenvolvedor JavaScript](https://www.alura.com.br/carreira-desenvolvedor-javascript)
+- [ ] [Engenheiro JavaScript](https://www.alura.com.br/carreira-engenheiro-javascript)
+- [ ] [Programador React](https://www.alura.com.br/carreira-programador-react)
 
 ## IN Learning:
 - [ ] [JavaScript: Templating](https://www.linkedin.com/learning/javascript-templating/installing-the-developer-tools)
