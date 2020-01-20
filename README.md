@@ -1,4 +1,6 @@
-# Courses:
+# Learning Projects.
+
+<!-- # Courses:
 
 ## Udemy:
 - [ ] [Curso Desenvolvimento Web](https://www.udemy.com/curso-completo-do-desenvolvedor-web/learn/v4/overview)
@@ -51,4 +53,4 @@
  ## Refs
  - [w3schools - Javascript](https://www.w3schools.com/js/default.asp)
  - [Developer Mozilla - Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
- - [Javascript.com - Javascript](https://www.javascript.com/)
+ - [Javascript.com - Javascript](https://www.javascript.com/) -->
