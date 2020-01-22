@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Main component 1`] = `
+<Main
+  description="Aqui um breve resumo de test"
+  title="Titulo da página"
+>
+  <h1>
+    Titulo da página
+  </h1>
+  <p>
+    Aqui um breve resumo de test
+  </p>
+</Main>
+`;
+
+exports[`should render Main component empty 1`] = `
+<Main
+  description={null}
+  title={null}
+>
+  <h1 />
+  <p />
+</Main>
+`;
