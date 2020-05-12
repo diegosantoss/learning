@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 
-import { Switch, Router, Route } from 'react-router'
+import { Switch, Router, Route } from 'react-router';
 
 import { history } from './history'
 

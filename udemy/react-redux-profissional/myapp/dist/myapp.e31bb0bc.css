@@ -1,0 +1,55 @@
+body {
+  background-color: #03a9f4;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.new-note {
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 2px;
+}
+
+.new-note__input {
+  width: 100%;
+  border: none;
+}
+
+.new-note__input:focus {
+  outline: none;
+}
+
+.note-list {
+  margin: 40px 0;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 2px;
+}
+
+.note__text {
+  flex: 1;
+}
+
+.note__button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.note__button--hiden {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=/myapp.e31bb0bc.css.map */
