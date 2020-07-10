@@ -1,0 +1,95 @@
+body{
+  background-color: #e8e8e8;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.app-bar{
+  background-color: #03a9f4;
+  color: #FFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.container_app-bar{
+  display: flex;
+}
+
+.app-bar__brand{
+  flex: 1;
+}
+
+.app-bar__action{
+  background-color: transparent;
+  border: 0;
+  color: #FFF;
+}
+
+.new-note{
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 2px; 
+  margin-top: 80px;
+}
+
+.new-note__input{
+  width: 100%;
+  border: none;
+}
+
+.new-note__input:focus{
+  outline: none;
+}
+
+.note-list{
+  margin: 40px 0;
+}
+
+.note{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 2px; 
+}
+
+.note__text{
+  flex: 1;
+}
+
+.note__input{
+  flex: 1;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.note__button{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.note__button--red{
+  color: #f44336;
+;}
+
+.note__button--green{
+  color: #4caf50;
+}
+
+.note__button--hiden{
+  visibility: hidden;
+}
