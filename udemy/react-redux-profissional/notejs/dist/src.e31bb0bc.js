@@ -28297,7 +28297,9 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var AppBar = function AppBar() {
+var AppBar = function AppBar(_ref) {
+  var onReload = _ref.onReload,
+      onSave = _ref.onSave;
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "app-bar"
   }, /*#__PURE__*/_react.default.createElement("section", {
@@ -28305,11 +28307,13 @@ var AppBar = function AppBar() {
   }, /*#__PURE__*/_react.default.createElement("span", {
     className: "app-bar__brand"
   }, "Note.js"), /*#__PURE__*/_react.default.createElement("button", {
-    className: "app-bar__action"
+    className: "app-bar__action",
+    onClick: onReload
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "material-icons"
   }, "refresh")), /*#__PURE__*/_react.default.createElement("button", {
-    className: "app-bar__action"
+    className: "app-bar__action",
+    onClick: onSave
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "material-icons"
   }, "save"))));
@@ -28619,19 +28623,9 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var App = function App() {
-  var _useState = (0, _react.useState)([{
-    id: 1,
-    text: "teste1"
-  }, {
-    id: 2,
-    text: "teste2"
-  }, {
-    id: 3,
-    text: "teste3"
-  }, {
-    id: 4,
-    text: "teste4"
-  }]),
+  var localStorage = [];
+
+  var _useState = (0, _react.useState)(localStorage),
       _useState2 = _slicedToArray(_useState, 2),
       notes = _useState2[0],
       setNotes = _useState2[1];
@@ -28643,6 +28637,7 @@ var App = function App() {
         text: note
       });
     });
+    handleSave();
   };
 
   var handleMovePosition = function handleMovePosition(type, index) {
@@ -28658,6 +28653,7 @@ var App = function App() {
 
       return newNotes;
     });
+    handleSave();
   };
 
   var onDelete = function onDelete(id) {
@@ -28669,6 +28665,7 @@ var App = function App() {
       newNotes.splice(index, 1);
       return newNotes;
     });
+    handleSave();
   };
 
   var onEdit = function onEdit(id, text) {
@@ -28680,9 +28677,22 @@ var App = function App() {
       newNotes[index].text = text;
       return newNotes;
     });
+    handleSave();
   };
 
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_AppBar.default, null), /*#__PURE__*/_react.default.createElement("section", {
+  var handleReload = function handleReload() {
+    var ReloadNotes = window.localStorage.getItem('notes');
+    setNotes(JSON.parse(ReloadNotes));
+  };
+
+  var handleSave = function handleSave() {
+    window.localStorage.setItem('notes', JSON.stringify(notes));
+  };
+
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_AppBar.default, {
+    onReload: handleReload,
+    onSave: handleSave
+  }), /*#__PURE__*/_react.default.createElement("section", {
     className: "container"
   }, /*#__PURE__*/_react.default.createElement(_NewNote.default, {
     onAddNote: onAddNote
@@ -28810,7 +28820,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49508" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55655" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
