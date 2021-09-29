@@ -1,12 +1,15 @@
 const express = require('express');
-const routes = require('./routes');
+
+const routes = require('./routes.js');
+
+require('./database');
 
 const app = express();
 
 app.use(express.json());
 
+
 app.use(routes);
 
-app.listen(3000, () => {
-  console.log('server working at http://localhost:3000')
-})
+
+app.listen(3333);

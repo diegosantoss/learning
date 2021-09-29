@@ -1,11 +1,11 @@
 module.exports = {
-  dialect: 'mysql',
-  host: 'localhost',
-  database: 'aldemir',
-  username: 'root',
-  password: '',
-  define: {
-    timestamp: true,
-    underscored: true
-  }
-}
+    host: "localhost",
+    dialect: 'mysql',
+    username: 'root',
+    password: '147852',
+    database: 'express_sequelize',
+    define: {
+        timestamps: true,
+        underscored: true,
+    },
+};
